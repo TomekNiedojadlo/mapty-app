@@ -1,0 +1,18 @@
+{
+  "name": "mapty-app",
+  "version": "1.0.0",
+  "description": "Mapty-application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-optimize --dist-dir ./dist"
+  },
+  "author": "Tomasz",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.8.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
